@@ -5,8 +5,9 @@ building products using the Cloudonix Platform.
 
 ## Samples:
 
- - [example-dialer-swift5](https://github.com/CloudonixMobileSDK-SampleApps/example-dialer-swift5): An iOS SIP soft phone written in Swift 5.
- - [cloudonix-sample-android-reg-free-dialer](https://github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-android-reg-free-dialer): An Android Registration-Free VoIP sample.
- - [cloudonix-sample-reg-free-server](https://github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-reg-free-server): A sample Registration-Free backend written for Node.JS.
-   This sample service (or another implementation of the [Cloudonix Registration-Free Protocol](https://docs.cloudonix.io/#/platform/registration-free/))
-   is needed to run all of the Registration-Free sample applications.
+ - [Sample Swift Dialer](//github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-swift-dialer-reference): An iOS SIP soft phone in Swift 5, with a dialer and using SIP registration.
+ - [Sample Android Simple Reference](//github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-android-simple-reference): An Android VoIP app in Java, with a pre-configured call plan and using SIP registration.
+ - [Sample Android Registration-Free Dialer](//github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-android-reg-free-dialer): An Android soft phone in Java, with a dialer and using Registration-Free dialing (requires a compatible server, see below for a reference implementation).
+ - [Sample Registration-Free Server](//github.com/CloudonixMobileSDK-SampleApps/cloudonix-sample-reg-free-server): A sample Registration-Free backend in Node.JS, as a reference and for use with the Registration-Free sample applications.
+
+For applications that use Cloudonix Registration-Free Dialing™️, please see the [Cloudonix Registration-Free Protocol specification](https://docs.cloudonix.io/#/platform/registration-free/) for an explenation of the protocol and its uses and benefits.
